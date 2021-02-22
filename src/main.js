@@ -17,7 +17,7 @@ class Main extends Component{
             <main>
                 <Container>
                 <Switch>
-                    <Route exact path='/' render={props => <Home {...props} calculaHoras={this.props.calculaHoras} />}/>
+                    <Route exact path='/' render={props => <Home {...props} />}/>
                 </Switch>
                 </Container>
             </main>

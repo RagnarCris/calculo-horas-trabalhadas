@@ -27,7 +27,7 @@ class Home extends Component {
                     </div>
                 </Card>
                 <h5 className="subtitle">Período de Trabalho</h5>
-                <Formulario calculaHoras={this.props.calculaHoras}/>
+                <Formulario />
             </Col>
             </Row>
         )
